@@ -1,7 +1,7 @@
 <?php
 extract($_POST);
 $conn = mysqli_connect("localhost","root","","dhruvs");
-$q = "select * from dhruvs where name = '$name' and regno = '$regno'";
+$q = " select * from dhruvs where name = '$name' and regno = '$regno' ";
 $result = mysqli_query($conn, $q);
 $count = mysqli_num_rows($result);
 if($count != 1) {
