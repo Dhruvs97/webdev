@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Register</title>
+</head>
+
+<body>
+    <form action = "reg.php" method="POST">
+        Name
+        <input type="text" placeholder="Enter Name" name="name" autofocus required><br><br> Register No. 
+        <input type="text" placeholder="Enter Register No." name="regno" required><br><br> Date of Birth 
+        <input type="date" name="bday"><br><br>
+        <label for="Year">Select Year:</label>
+        <select name="Year">
+            <option value="1">1st year</option>
+            <option value="2">2nd year</option>
+            <option value="3">3rd year</option>
+            <option value="4">4th year</option>
+        </select><br><br>
+        Email <input type="email" placeholder="Enter email" name = "email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

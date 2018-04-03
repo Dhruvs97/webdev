@@ -1,0 +1,111 @@
+p {
+    padding: 140px;
+    font-family: georgia;
+    text-align: left;
+    color: yellow;
+}
+
+ul {
+    padding: 140px;
+    font-family: georgia;
+    text-align: left;
+    color: yellow;
+    margin-top: -250px;
+}
+
+strong {
+    color: forestgreen;
+}
+
+body {
+    background-image: url(dc045728e604c33546719990c6d13709.png);
+    border-style: solid;
+    border-color: cyan;
+}
+
+img {
+    float: left;
+    height: 200px;
+    width: 300px;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 20;
+    text-align: center;
+	position:relative;
+	animation-iteration-count:infinite;
+	animation-name:asd;
+	animation-direction:alternate;
+	animation-duration:4s;
+	}
+	@keyframes asd {
+		0% { color: mediumturquoise; } 
+		10% { color: mediumseagreen; }
+		20% { color: peru; } 
+		30% { color: crimson; }
+		40% { color: lightgoldenrodyellow; } 
+        50% { color: seashell; }
+        60% { color: powderblue; } 
+        70% { color: pink; }
+        80% { color: seagreen; } 
+        90% { color: grey; }
+        100% { color: salmon; } 
+}
+
+video {
+    padding: 150px;
+    margin-top: -250px;
+    display: block;
+    margin-left: 250px;
+    position: relative;
+}
+
+.cont {
+        width: 500px;
+        clear: both;
+        padding-left: 480px;
+    }
+
+.cont input {
+        width: 100%;
+        clear: both;
+    }
+
+.cont button {
+    width: 100%;
+    clear: both;
+}
+
+label {
+    color: royalblue;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cyan;
+    
+}
+
+.yr {
+    float: left;
+}
+.yr, a {
+    display: block;
+    color: maroon;
+    font-family: arial;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #8FBC8F;
+}
+
+.active {
+background-color:#4CAF50;
+}

@@ -1,0 +1,25 @@
+#wrapper {
+    padding-left: 550px;
+    font-family: arial narrow;
+    font-size: 50px;
+    color: olive;
+    padding-top: 200px;
+}
+input[type=submit] {
+    background-color: lightsteelblue;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 75px;
+}
+input[placeholder] {
+    font-family: arial black;
+}
+input[type=text]  {
+    font-size: 20px;
+}
+input[type=password] {
+    font-size: 20px;
+}
+body {
+    background-image: url(free-abstract-background-11-vector.jpg);
+}
